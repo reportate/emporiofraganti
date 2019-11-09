@@ -1,0 +1,49 @@
+main .sir-nosotros{
+    background: #f0f3f5;
+    padding: 60px 0;
+    
+}
+
+
+
+main .sir-nosotros-titulo{
+    
+    text-align: center;
+    font-weight: 300;
+    font-size: 6vw;
+}
+
+main .sir-nosotros-parrafo{
+    text-align: center;
+    color: #999;
+    font-weight: 600;
+    font-size: 2vw;
+    padding: 0px 20px;
+}
+
+main .sir-tarjeta{
+    text-align: center;
+    padding: 60px 0;
+}
+
+main .sir-contenido-tarjeta{
+    margin-top: 20px;
+    color: #999;
+}
+
+main .sir-contenido-tarjeta a{
+    
+    color: #999999;
+    font-weight: 600;
+}
+
+main .sir-contenido-tarjeta a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+main .sir-titulo-tarjeta{
+    font-weight: 600;
+}
+
+

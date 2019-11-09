@@ -1,0 +1,84 @@
+.sir-cont-banner{
+    height: 100vh; /*Tomara el alto de la pantalla independiente el dispositivo que sea*/
+    background-attachment: fixed; /*Imagen fija*/
+    background-position:center; /*Imagen centrada*/
+    background-repeat: no-repeat;
+    background-size: cover;/*Mantenga el tamaño de la imagen*/
+    background-image: url(../img/fondo1.jpg);
+
+}
+
+.sir-sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);/*se traslade -50 izquierda y derecha, se traslade -50 izquierda y derecha*/
+    /*PARA OTROS NAVEGADORES*/
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: -50%,-50%;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background: rgba(81, 196, 216, 0.6);
+    color: #fff;
+    margin: auto;
+
+}
+
+.sir-sombra hr{
+    border-top: 1px solid #fff;
+};
+
+.sir-sombra h1{
+    font-size: 8vw; /*SE ADECUE EL PARRAFO A LA PANTALLA  SE AGRANDA CUANDO SE EXPANDE LA PANTALLA*/
+    margin-bottom: 10px; /*Separado de su parte inferior 10px*/
+};
+
+.sir-sombra p{
+    font-size: 4vw;
+    margin-bottom: 10px;
+};
+
+.sir-cont-banner-link{
+    margin: 15px;
+    position: relative;
+
+}
+
+.sir-cont-banner-link a{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.sir-cont-banner-link a:hover{
+    background: rgb(93, 102, 102);
+}
+
+.sir-banner-link{
+    opacity: 0;
+    animation: sir-keyframe-aparecer-arriba 1s;
+    -webkit-animation: sir-keyframe-aparecer-arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.sir-banner-link-1{
+    opacity: 0;
+    animation: sir-keyframe-aparecer-arriba 1s;
+    -webkit-animation: sir-keyframe-aparecer-arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;/*500 milisegundos*/
+}
+
+.sir-banner-link-2{
+    opacity: 0;
+    animation: sir-keyframe-aparecer-arriba 1s;
+    -webkit-animation: sir-keyframe-aparecer-arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}

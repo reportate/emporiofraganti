@@ -1,0 +1,27 @@
+.sir-navbar{
+    background: rgba(16, 128, 233, 0.6);
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    
+}
+
+.nav-link{
+    color: #fff;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.navbar-toggler{
+    color: #fff;
+    
+}
+
+
+.navbar-nav a:hover{
+    color:  rgb(93, 102, 102);
+    transition: 0.7s;
+}
+
+.navbar-nav img{
+    width: 25px;
+}

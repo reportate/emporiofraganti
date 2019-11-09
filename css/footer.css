@@ -1,0 +1,47 @@
+
+
+.sir-footer{
+    background: rgb(92, 89, 89);
+    color: #fff;
+    padding: 10%;
+    margin-top: 100px
+    
+};
+
+.sir-footer a{
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+
+
+.sir-footer .icon{
+    font-size: 30px;
+    color: #fff;
+    display: block;
+}
+
+.sir-cont-categ-footer a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sir-cont-categ-footer a:hover{
+    color: rgb(134, 214, 210);
+}
+
+
+.sir-cont-recom-footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sir-cont-recom-footer a:hover{
+    color: rgb(96, 211, 205);
+}
+
+
+
