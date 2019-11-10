@@ -4,10 +4,8 @@ main .sir-nosotros{
     
 }
 
-
-
 main .sir-nosotros-titulo{
-    
+    color: #999;
     text-align: center;
     font-weight: 300;
     font-size: 6vw;
@@ -20,6 +18,9 @@ main .sir-nosotros-parrafo{
     font-size: 2vw;
     padding: 0px 20px;
 }
+
+/*segundo section*/
+
 
 main .sir-tarjeta{
     text-align: center;
@@ -38,7 +39,7 @@ main .sir-contenido-tarjeta a{
 }
 
 main .sir-contenido-tarjeta a:hover{
-    color: #000;
+    color:  rgb(129, 194, 231);
     text-decoration: none;
 }
 

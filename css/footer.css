@@ -1,47 +1,58 @@
-
+footer{
+    background: rgb(131, 128, 128);
+    color: #fff;
+    width: 100%;
+    padding: 10%;
+   
+    
+}
 
 .sir-footer{
-    background: rgb(92, 89, 89);
-    color: #fff;
-    padding: 10%;
-    margin-top: 100px
+    text-align: center;
+    text-align: left;
     
-};
+   
+}
 
-.sir-footer a{
-    text-decoration: none;
+.sir-footer-uno p{
+    margin-top: 30px;
+}
+
+
+
+.sir-footer-dos a{
     color: #fff;
+    text-decoration: none;
+    line-height:5;
+    margin-left: 10px;
     
+}
+
+.sir-footer-dos a:hover{
+    color: rgb(129, 194, 231);
+}
+
+.footer-dos-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-tres-container{
+    display: flex;
+    flex-direction: column;
 
 }
 
+.footer-tres-info{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 
-.sir-footer .icon{
-    font-size: 30px;
+.sir-footer-derechos{
+    background: rgb(24, 22, 22);
     color: #fff;
-    display: block;
+    text-align: center;
+    
 }
-
-.sir-cont-categ-footer a{
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.sir-cont-categ-footer a:hover{
-    color: rgb(134, 214, 210);
-}
-
-
-.sir-cont-recom-footer a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.sir-cont-recom-footer a:hover{
-    color: rgb(96, 211, 205);
-}
-
 
 

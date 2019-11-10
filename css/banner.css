@@ -17,9 +17,9 @@
     -ms-transform: translate(-50%,-50%);
     -webkit-transform: -50%,-50%;
     padding: 20px;
-    width: 80%;
+    width: 70%;
     text-align: center;
-    background: rgba(81, 196, 216, 0.6);
+    background: rgba(111, 114, 114, 0.6);
     color: #fff;
     margin: auto;
 
@@ -29,15 +29,20 @@
     border-top: 1px solid #fff;
 };
 
-.sir-sombra h1{
+.sir-sombra-titulo{
     font-size: 8vw; /*SE ADECUE EL PARRAFO A LA PANTALLA  SE AGRANDA CUANDO SE EXPANDE LA PANTALLA*/
     margin-bottom: 10px; /*Separado de su parte inferior 10px*/
+
+   
 };
 
-.sir-sombra p{
+.sir-sombra .sir-sombra-parrafo{
     font-size: 4vw;
     margin-bottom: 10px;
 };
+
+
+
 
 .sir-cont-banner-link{
     margin: 15px;
@@ -57,7 +62,7 @@
 }
 
 .sir-cont-banner-link a:hover{
-    background: rgb(93, 102, 102);
+    background: rgb(129, 194, 231);
 }
 
 .sir-banner-link{
