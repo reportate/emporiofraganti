@@ -185,7 +185,7 @@ a{
 /*modificado por francisco*/
 .overlay img {
     max-width: 100vw;
-    max-width: 85vh;
+    max-width: 70vh;
 
 }
 
@@ -269,4 +269,18 @@ footer .creado-por {
 
 footer .creado-por a {color: #000;}
 footer .creado-por a:hover {text-decoration: underline;}
+
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+    }
+    
+    .overlay img {
+        max-width: 70vw;
+        max-width: 60vh;
+    
+    }
+
+	
+}
 
