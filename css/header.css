@@ -6,7 +6,7 @@
 }
 
 .nav-link{
-    color: #fff;
+    color: #fff !important;
     margin-right: 16px;
     font-size: 18px;
 }
@@ -18,7 +18,7 @@
 
 
 .navbar-nav a:hover{
-    color:  rgb(93, 102, 102);
+    color:  rgb(93, 102, 102) !important;
     transition: 0.7s;
 }
 

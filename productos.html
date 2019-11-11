@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>productos de aseo y limpieza </title>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/productos.css">
+</head>
+
+<body>
+
+    <!--Cabecera-->
+    <header>
+        <nav class="sir-navbar navbar navbar-expand-lg navbar-dark bg-ligh">
+
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="img/LogoSinFondo.png" width="150px" alt="">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <!--ml-auto cambia posicion menu-->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">INICIO<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">NOSOTROS <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#footer">CONTACTO <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        </div>
+
+    </header>
+
+    <!--Contenido-->
+
+    <section class="section1">
+        <div class="container">
+            <div class="logo">
+                <h1>Productos de limpieza para el hogar</h1>
+                <p>Ahorro y más</p>
+            </div>
+
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">todos</a>
+                <a href="#">cocina</a>
+                <a href="#">baño</a>
+                <a href="#">piso</a>
+                <a href="#">ropa</a>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="grid  container" id="grid">
+
+        <div class="item" data-categoria="piso" data-etiqueta="piso ceramica flotante porcelanato abrillantador"
+            data-decripcion="Limpia pisos">
+            <div class="item-content">
+                <img src="img/productos/Piso.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="item" data-categoria="piso" data-etiqueta="piso ceramica flotante porcelanato abrillantador"
+            data-decripcion="Limpia pisos">
+            <div class="item-content">
+                <img src="img/productos/Piso2.jpg" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="item" data-categoria="piso" data-etiqueta="piso ceramica flotante porcelanato abrillantador"
+            data-decripcion="Todo en limpia piso">
+            <div class="item-content">
+                <img src="img/productos/Piso3.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="item" data-categoria="cocina" data-etiqueta="cocina antigrasa quitagrasa antigermenes lavaloza"
+            data-decripcion="Todo en artículos de cocina">
+            <div class="item-content">
+                <img src="img/productos/Cocina.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="item" data-categoria="cocina" data-etiqueta="cocina antigrasa quitagrasa antigermenes lavaloza"
+            data-decripcion="Todo en artículos de cocina">
+            <div class="item-content">
+                <img src="img/productos/Cocina2.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="item" data-categoria="baño"
+            data-etiqueta="antisarro clorogel limpiadorcrema desodorante limpiavidrio jumbo jabon liquido"
+            data-decripcion="Todo en artículos para baño y más">
+            <div class="item-content">
+                <img src="img/productos/Baño.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="item" data-categoria="baño"
+            data-etiqueta="antisarro clorogel limpiadorcrema desodorante limpiavidrio jumbo jabon liquido"
+            data-decripcion="Todo en artículos para baño y más">
+            <div class="item-content">
+                <img src="img/productos/Baño2.jpg" alt="">
+            </div>
+        </div>
+
+
+        <div class="item" data-categoria="ropa" data-etiqueta="detergentes suazantes hipoalergenico quitamanchas 4matic"
+            data-decripcion="Todos los productos para el lavado">
+            <div class="item-content">
+                <img src="img/productos/Detergentes.jpg" alt="">
+            </div>
+        </div>
+        <div class="item" data-categoria="ropa" data-etiqueta="detergentes suazantes hipoalergenico quitamanchas 4matic"
+            data-decripcion="Todos los productos para el lavado">
+            <div class="item-content">
+                <img src="img/productos/Detergentes2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+
+
+
+
+    <footer class="contenedor">
+        <div class="redes-sociales">
+            <div class="contenedor-icono">
+                <a href="#" target="_blank" class="twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="contenedor-icono">
+                <a href="" target="_blank" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+            <div class="contenedor-icono">
+                <a href="#" target="_blank" class="instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="creado-por">
+            <p>&copy: Todos los derechos reservados  <a href="#">Emporio Fraganti</a> - <a
+                    href="#">Reportate Web & Desing</a></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="/js/productos.js"></script>
+
+
+
+    <script src="jquery/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
